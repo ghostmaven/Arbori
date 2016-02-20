@@ -1,0 +1,8 @@
+{"genus":[
+  {
+    "id": 1,
+    "name": "Taxus",
+    "description": "description",
+    "attribute_list_ids": [1, 3, 5, 29, 31, 40, 45, 52, 61]
+  }
+]}

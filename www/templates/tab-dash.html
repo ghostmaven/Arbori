@@ -1,0 +1,27 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+    <ul class="list">
+      <!-- <li class="item"> -->
+      <div class="item item-divider">
+       Caută 
+      </div>
+        <label class="item item-input">
+        <i class="icon ion-search placeholder-icon"></i>
+        <input type="text" placeholder="Search">
+      </label>
+      <!-- </li> -->
+      <div class="item item-divider">
+        Atribute
+      </div>
+      <ion-checkbox ng-model="node_option">
+        Frunză
+      </ion-checkbox>
+     <ion-list>
+        <ion-checkbox ng-model="first_option">Răsfirată</ion-checkbox>
+        <ion-checkbox ng-model="second_option">Încrucișată</ion-checkbox>
+        <ion-checkbox ng-model="thrid_option">Creponată</ion-checkbox>
+     </ion-list>
+
+    </ul>
+  </ion-content>
+</ion-view>
