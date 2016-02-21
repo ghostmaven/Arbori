@@ -2,164 +2,132 @@
   {
     "id": 1,
     "attribute_name": "Tip frunză",
-    "attribute_value": "Aciculară",
     "description": "description",
-    "parent_attribute_id": 0
+    "parent_attribute_id": 0,
+    "attribute_values": [
+      {
+        "id": 1,
+        "attribute_value": "Aciculară"
+      },
+      {
+        "id": 2,
+        "attribute_value": "Solziformă"
+      }
+    ]
   },
   {
     "id": 2,
-    "attribute_name": "Tip frunză",
-    "attribute_value": "Solziformă",
+    "attribute_name": "Tip frunză aciculară",
     "description": "description",
-    "parent_attribute_id": 0
+    "parent_attribute_id": 1,
+    "attribute_values": [
+      {
+        "id": 1,
+        "attribute_value": "Neînțepătoare"
+      },
+      {
+        "id": 2,
+        "attribute_value": "Înțepătoare"
+      }
+    ]
   },
   {
     "id": 3,
-    "attribute_name": "Tip frunză aciculară",
-    "attribute_value": "Neînțepătoare",
+    "attribute_name": "Dispunere frunză aciculară",
     "description": "description",
-    "parent_attribute_id": 1
+    "parent_attribute_id": 1,
+    "attribute_values": [
+      {
+        "id": 1,
+        "attribute_value": "Solitară",
+      },
+      {
+        "id": 2,
+        "attribute_value": "Grupate câte 2"
+      },
+      {
+        "id": 3,
+        "attribute_value": "Grupate câte 3"
+      },
+      {
+        "id": 4,
+        "attribute_value": "Grupate câte 5"
+      },
+      {
+        "id": 5,
+        "attribute_value": "Grupate în smocuri (>5)"
+      },
+      {
+        "id": 6,
+        "attribute_value": "Grupate în verticil (10-30)"
+      },
+      {
+        "id": 7,
+        "attribute_value": "Grupate în verticil (10-30)"
+      }
+    ]
   },
   {
     "id": 4,
-    "attribute_name": "Tip frunză aciculară",
-    "attribute_value": "Înțepătoare",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 5,
-    "attribute_name": "Dispunere frunză aciculară",
-    "attribute_value": "Solitară",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 6,
-    "attribute_name": "Dispunere frunză aciculară",
-    "attribute_value": "Grupate câte 2",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 7,
-    "attribute_name": "Dispunere frunză aciculară",
-    "attribute_value": "Grupate câte 3",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 8,
-    "attribute_name": "Dispunere frunză aciculară",
-    "attribute_value": "Grupate câte 3",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 9,
-    "attribute_name": "Dispunere frunză aciculară",
-    "attribute_value": "Grupate câte 5",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 10,
-    "attribute_name": "Dispunere frunză aciculară",
-    "attribute_value": "Grupate în smocuri (>5)",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 11,
-    "attribute_name": "Dispunere frunză aciculară",
-    "attribute_value": "Grupate în verticil (10-30)",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 12,
     "attribute_name": "Lungime ace",
-    "attribute_value": "3-10 cm",
     "description": "description",
-    "parent_attribute_id": 1
+    "parent_attribute_id": 1,
+    "attribute_values": [
+      {
+        "id": 1,
+        "attribute_value": "3-10 cm"
+      },
+      {
+        "id": 2,
+        "attribute_value": "3-7 cm"
+      },
+      {
+        "id": 3,
+        "attribute_value": "5-10 cm"
+      },
+      {
+        "id": 4,
+        "attribute_value": "7-10 cm"
+      },
+      {
+        "id": 5,
+        "attribute_value": "10-18 cm"
+      },
+      {
+        "id": 6,
+        "attribute_value": "8-14 cm"
+      },
+      {
+        "id": 7,
+        "attribute_value": "5-19 cm"
+      },
+      {
+        "id": 8,
+        "attribute_value": "10-25 cm"
+      },
+      {
+        "id": 9,
+        "attribute_value": "12-28 cm"
+      },
+      {
+        "id": 10,
+        "attribute_value": "2-4 cm"
+      },
+      {
+        "id": 11,
+        "attribute_value": "1-3 cm"
+      },
+      {
+        "id": 12,
+        "attribute_value": "6-12(25) cm"
+      },
+      {
+        "id": 14,
+        "attribute_value": "8-15 cm"
+      }
+    ]
   },
-  {
-    "id": 13,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "3-7 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 14,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "5-10 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 15,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "7-10 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 16,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "10-18 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 17,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "8-14 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 18,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "5-9 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 19,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "10-25 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 20,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "12-28 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 21,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "2-4 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 22,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "1-3 cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
-  {
-    "id": 23,
-    "attribute_name": "Lungime ace",
-    "attribute_value": "6-12(25)cm",
-    "description": "description",
-    "parent_attribute_id": 1
-  },
+
   {
     "id": 24,
     "attribute_name": "Lungime ace",

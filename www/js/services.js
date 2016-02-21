@@ -1,6 +1,6 @@
-angular.module('starter.services', [])
+angular.module('arbori.services', [])
 
-.factory('Chats', function() {
+.factory('Items', function() {
   // Might use a resource here that returns a JSON array
 
   // Some fake testing data
