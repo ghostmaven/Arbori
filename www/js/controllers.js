@@ -133,9 +133,27 @@ angular.module('arbori.controllers', [])
   ];
 
   $scope.filterSelect = function(id) {
-    $(".attribute-values").not("#attribute_" + id).addClass("hide");
+    // $(".attribute-values").not("#attribute_" + id).toggleClass("display-none");
     $(".caret-attribute").not("#caret_attribute_" + id).removeClass("rotate90");
-    $("#attribute_" + id).toggleClass("hide show");
+    if($("#attribute_" + id).hasClass("hide")) {
+      $("#attribute_" + id).toggleClass("hide show");
+      $("#attribute_" + id).transition({
+        scale: [1],
+        duration: 500,
+        easing: 'in',
+        complete: function() {}
+      });
+    } else {
+      $("#attribute_" + id).transition({
+        scale: [0],
+        duration: 500,
+        easing: 'in',
+        complete: function() {
+          $("#attribute_" + id).toggleClass("hide show");
+        }
+      });
+    }
+
     $("#caret_attribute_" + id).toggleClass("rotate90 rotate0");
   }
 
