@@ -133,8 +133,10 @@ angular.module('arbori.controllers', [])
   ];
 
   $scope.filterSelect = function(id) {
-    // $(".attribute-values").not("#attribute_" + id).toggleClass("display-none");
-    $(".caret-attribute").not("#caret_attribute_" + id).removeClass("rotate90");
+    // $(".attribute-values").not("#attribute_" + id).addClass("hide");
+    // Rotate the caret in intitial position on all attributes exept the one clicked.
+    // $(".caret-attribute").not("#caret_attribute_" + id).removeClass("rotate90");
+    // Show/hide attribute values
     if($("#attribute_" + id).hasClass("hide")) {
       $("#attribute_" + id).toggleClass("hide show");
       $("#attribute_" + id).transition({
@@ -153,7 +155,6 @@ angular.module('arbori.controllers', [])
         }
       });
     }
-
     $("#caret_attribute_" + id).toggleClass("rotate90 rotate0");
   }
 

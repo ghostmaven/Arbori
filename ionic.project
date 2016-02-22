@@ -1,4 +1,12 @@
 {
   "name": "Arbori",
-  "app_id": "907af13a"
+  "app_id": "907af13a",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
 }
