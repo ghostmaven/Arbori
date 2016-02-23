@@ -6,8 +6,9 @@
           <img src="http://placehold.it/100x100">
           <h2>{{item.binomial_name}}</h2>
           <p>{{item.common_name}}</p>
-          <a class="icon ion-android-more-vertical item-more-button"
-            ui-sref="tab.item-details({itemId: item})"></a>
+          <a ui-sref="tab.item-details()">
+            <i class="icon ion-android-more-vertical item-details-button"></i>
+          </a>
         </ion-item>
         <ion-item class="item-text-wrap item-description">
           <p>{{item.description}}</p>

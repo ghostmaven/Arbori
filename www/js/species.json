@@ -1,10 +1,18 @@
-species = [
-  {
+species = {
+ "1": {
     "id": 1,
     "binomial_name": "Taxus baccata",
     "common_name": "Tisă",
     "description": "Tisa (Taxus baccata) este un arbore puțin înalt (cca. 12 m).",
     "genus_id": 1,
     "attribute_list": [1, 3, 5]
+  },
+  "2": {
+  	"id": 2,
+  	"binomial_name": "Pinus cena",
+  	"common_name": "Zâmbru",
+  	"description": "Acest arbore poate atinge o înălțime de până la 20–25 m și un diametru de 2 m",
+  	"genus_id": 2,
+  	"attribute_list": [1, 2, 3]
   }
-]
+}

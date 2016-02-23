@@ -43,6 +43,15 @@ angular.module('arbori.controllers', [])
   $scope.species = species;
 })
 
-.controller('ItemDetailCtrl', function($scope, $stateParams) {})
+.controller('SpeciesDetailsCtrl', function($scope, $stateParams) {
+  $scope.item = {
+    "id": 1,
+    "binomial_name": "Taxus baccata",
+    "common_name": "Tisă",
+    "description": "Tisa (Taxus baccata) este un arbore puțin înalt (cca. 12 m).",
+    "genus_id": 1,
+    "attribute_list": [1, 3, 5]
+  }
+})
 
 .controller('SettingsCtrl', function($scope) {});
