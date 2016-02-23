@@ -43,21 +43,24 @@ angular.module('arbori', ['ionic', 'arbori.controllers', 'arbori.services'])
     }
   })
 
-  .state('tab.items', {
-      url: '/items',
+  .state('tab.species', {
+      url: '/species',
       views: {
-        'tab-items': {
-          templateUrl: 'partials/tab-items.html',
-          controller: 'ItemsCtrl'
+        'tab-species': {
+          templateUrl: 'partials/tab-species.html',
+          controller: 'SpeciesCtrl'
         }
       }
     })
-    .state('tab.item-detail', {
-      url: '/items/:itemId',
+    .state('tab.item-details', {
+      url: '/species/:item',
       views: {
-        'tab-items': {
+        'tab-species': {
           templateUrl: 'partials/item-detail.html',
-          controller: 'ItemDetailCtrl'
+          controller: 'SpeciesDetailsCtrl',
+          params: {
+            item: null
+          }
         }
       }
     })

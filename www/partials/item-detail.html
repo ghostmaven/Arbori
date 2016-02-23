@@ -4,11 +4,29 @@
   The FriendsCtrl pulls data from the Friends service (service.js)
   The Friends service returns an array of friend data
 -->
-<ion-view view-title="{{chat.name}}">
+<ion-view view-title="{{item.binomial_name}}">
   <ion-content class="padding">
-    <img ng-src="{{chat.face}}" style="width: 64px; height: 64px">
-    <p>
-      {{chat.lastText}}
-    </p>
+    <ion-list class="card">
+
+      <ion-item class="item-avatar">
+        <img src="http://placehold.it/50x50">
+        <h2>{{item.binomial_name}}</h2>
+        <p>November 05, 1955</p>
+      </ion-item>
+
+      <ion-item class="item item-body">
+        <img class="full-image" src="http://placehold.it/300x150">
+        <p>
+          This is a "Facebook" styled Card. The header is created from a Thumbnail List item,
+          the content is from a card-body consisting of an image and paragraph text. The footer
+          consists of tabs, icons aligned left, within the card-footer.
+        </p>
+        <p>
+          <a href="#" class="subdued">1 Like</a>
+          <a href="#" class="subdued">5 Comments</a>
+        </p>
+      </ion-item>
+
+    </ion-list>
   </ion-content>
 </ion-view>

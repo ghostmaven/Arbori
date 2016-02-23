@@ -1,12 +1,13 @@
 <ion-view view-title="Specii">
   <ion-content>
-    <div class="padding" ng-repeat="item in items">
-      <ion-list class="list list-inset">
+    <div class="padding" ng-repeat="item in species">
+      <ion-list>
         <ion-item class="item-avatar item-icon-right">
           <img src="http://placehold.it/100x100">
           <h2>{{item.binomial_name}}</h2>
           <p>{{item.common_name}}</p>
-          <a class="icon button-dark ion-android-more-vertical"></a>
+          <a class="icon ion-android-more-vertical item-more-button"
+            ui-sref="tab.item-details({itemId: item})"></a>
         </ion-item>
         <ion-item class="item-text-wrap item-description">
           <p>{{item.description}}</p>
