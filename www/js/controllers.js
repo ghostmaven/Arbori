@@ -1,32 +1,26 @@
 angular.module('arbori.controllers', [])
 
+.controller('AppCtrl', function($scope) {
+  $scope.attributes = attributes;
+  $scope.species = species; 
+  $scope.selected_filters = [];
+
+  $scope.$watch('selected_filters', function() {
+    for (i = 1; i <= Object.keys($scope.species).length; i++) {
+      $scope.species[i].relevance = 0;
+      for (j = 1; j <= $scope.species[i].attribute_list.length; j++) {
+        $scope.species[i].relevance = $scope.selected_filters.filter(function(n) {
+            return $scope.species[i].attribute_list.indexOf(n) != -1;
+        }).length;
+      }
+    }
+  }, true);
+})
+
 .controller('FiltersCtrl', function($scope) {
 
-  $scope.attributes = attributes;
-
   $scope.filterSelect = function(id) {
-    // $(".attribute-values").not("#attribute_" + id).addClass("hide");
-    // Rotate the caret in intitial position on all attributes exept the one clicked.
-    // $(".caret-attribute").not("#caret_attribute_" + id).removeClass("rotate90");
-    // Show/hide attribute values
-    if($("#attribute_" + id).hasClass("hide")) {
-      $("#attribute_" + id).toggleClass("hide show");
-      $("#attribute_" + id).transition({
-        scale: [1],
-        duration: 500,
-        easing: 'in',
-        complete: function() {}
-      });
-    } else {
-      $("#attribute_" + id).transition({
-        scale: [0],
-        duration: 500,
-        easing: 'in',
-        complete: function() {
-          $("#attribute_" + id).toggleClass("hide show");
-        }
-      });
-    }
+    $("#attribute_" + id).toggleClass("visible invisible");
     $("#caret_attribute_" + id).toggleClass("rotate90 rotate0");
   }
 
@@ -36,22 +30,20 @@ angular.module('arbori.controllers', [])
     $("#attribute_value_" + attribute_value_id).toggleClass("selected");
     var selected_attributes = $("#attribute_" + attribute_id) .children(".selected").length;
     $("#attribute_selected_count_" + attribute_id).html(selected_attributes > 0 ? selected_attributes : '');
+    index = $scope.selected_filters.indexOf(attribute_value_id);
+    if (index != -1) {
+      $scope.selected_filters.splice(index, 1);
+    } else {
+      $scope.selected_filters.push(attribute_value_id);
+    }
   }
 })
 
-.controller('SpeciesCtrl', function($scope) {
-  $scope.species = species;
+.controller('SpeciesCtrl', function($scope, $stateParams) {
 })
 
 .controller('SpeciesDetailsCtrl', function($scope, $stateParams) {
-  $scope.item = {
-    "id": 1,
-    "binomial_name": "Taxus baccata",
-    "common_name": "Tisă",
-    "description": "Tisa (Taxus baccata) este un arbore puțin înalt (cca. 12 m).",
-    "genus_id": 1,
-    "attribute_list": [1, 3, 5]
-  }
+  $scope.item = species[$stateParams.itemId];
 })
 
 .controller('SettingsCtrl', function($scope) {});

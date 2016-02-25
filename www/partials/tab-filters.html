@@ -8,28 +8,24 @@
     </div>
     <div class="padding">
       <ion-list>
-<!--         <ion-item class="item-divider">
-          <i class="icon ion-android-checkmark-circle icon-left"> Filtre active</i>
-        </ion-item> -->
         <span ng-repeat="attribute in attributes | filter:filter_search">
-          <button class="button button-block button-stable icon-right"
+          <button class="button button-block button-energized icon-right"
             ng-click="filterSelect(attribute.id)">
             <span class="badge badge-dark" id="{{'attribute_selected_count_' + attribute.id}}"></span>
             {{attribute.attribute_name}}
             <i class="ion-android-arrow-forward caret-attribute"
               id="{{'caret_attribute_' + attribute.id}}"></i>
           </button>
-          <div class="attribute-values hide" id="{{'attribute_' + attribute.id}}">
-            <button class="button button-positive icon-left ion-android-checkbox-outline-blank margin"
-              ng-repeat="attribute_value in attribute.attribute_values" ng-click="filterCheck(attribute.id,attribute_value.id)" id="{{'attribute_value_' + attribute_value.id}}">
-              {{attribute_value.attribute_value}}
-            </button>
+          <div class="attribute-values invisible" id="{{'attribute_' + attribute.id}}">
+            <span class="ion-item-attribute" ng-repeat="attribute_value in attribute.attribute_values" ng-click="filterCheck(attribute.id,attribute_value.id)">
+              <span class="item item-icon-top-right item-image col col-50 col-offset-25">
+                <i class="icon icon-large icon-checkbox-attribute ion-android-checkbox-outline-blank" id="{{'attribute_value_' + attribute_value.id}}"></i>
+                <img src="{{attribute_value.image_path}}">
+              </span>
+            </span>
           </div>
         </span>
-<!--         <ion-item class="item-divider">
-          <i class="icon ion-android-radio-button-off icon-left"> Filtre valabile</i>
-        </ion-item> -->
       </ion-list>
-    </div ng-repeat-end>
+    </div>
   </ion-content>
 </ion-view>

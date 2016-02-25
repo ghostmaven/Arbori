@@ -18,16 +18,52 @@ $dark:                            #444 !default;
 // The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../lib/ionic/fonts" !default;
 
+
 // Include all of Ionic
 @import "www/lib/ionic/scss/ionic";
 
-.item-details-button {
-  color: #666;
+// Include Bourbon
+@import "www/lib/bourbon/app/assets/stylesheets/_bourbon.scss";
+
+// Helper classes
+.margin {
+  margin: 5px;
 }
 
 .no-padding {
   padding: 0px !important;
 }
+
+// Background image
+ion-content {
+  background-image: url('/img/background.jpg');
+  background-size: cover;
+}
+
+// Remove the background from the attribute items.
+.ion-item-attribute {
+  background-color: transparent !important;
+  border-style: none;
+}
+
+// Item icon positioning class for right corner
+.item-icon-top-right .icon {
+  @include display(flex);
+  @include align-items(center);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 32px;
+}
+
+.icon-checkbox-attribute {
+  color: #561823 !important;
+}
+
+.item-details-button {
+  color: #666;
+}
+
 
 .caret-attribute {
   float: right;
@@ -45,23 +81,26 @@ $ionicons-font-path: "../lib/ionic/fonts" !default;
   transform: rotate(90deg);
 }
 
-.rotate45 {
-  -ms-transform: rotate(0deg);
-  -webkit-transform: rotate(0deg);
-  -o-transform: rotate(0deg);
-  -moz-transform: rotate(0deg);
-  transform: rotate(0deg);
+.rotate0 {
+  // -ms-transform: rotate(0deg);
+  // -webkit-transform: rotate(0deg);
+  // -o-transform: rotate(0deg);
+  // -moz-transform: rotate(0deg);
+  // transform: rotate(0deg);
 }
 
-.margin {
-  margin: 5px;
-}
 
 .attribute-values {
-  -ms-transform: scaleY(0);
-  -webkit-transform: scaleY(0);
-  -o-transform: scaleY(0);
-  -moz-transform: scaleY(0);
-  transform: scaleY(0);
+  @include transition(max-height .5s ease-in); 
+  overflow: hidden;
+}
+
+.invisible {
+  @include transition(max-height .5s ease-in); 
+  max-height: 0px;
+}
+
+.visible {
+  max-height: 1000px;
 }
 

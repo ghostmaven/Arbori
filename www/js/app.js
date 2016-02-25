@@ -1,4 +1,4 @@
-angular.module('arbori', ['ionic', 'arbori.controllers', 'arbori.services'])
+angular.module('arbori', ['ionic', 'arbori.controllers', 'arbori.services', 'arbori.filters'])
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
@@ -53,13 +53,13 @@ angular.module('arbori', ['ionic', 'arbori.controllers', 'arbori.services'])
       }
     })
     .state('tab.item-details', {
-      url: '/species/:item',
+      url: '/species/:itemId',
       views: {
         'tab-species': {
           templateUrl: 'partials/item-detail.html',
           controller: 'SpeciesDetailsCtrl',
           params: {
-            item: null
+            itemId: null
           }
         }
       }
