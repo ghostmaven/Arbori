@@ -9743,7 +9743,8 @@ ion-content {
 
 .ion-item-attribute {
   background-color: transparent !important;
-  border-style: none; }
+  border-style: none;
+  padding: 5px; }
 
 .item-icon-top-right .icon {
   display: -webkit-box;

@@ -2,7 +2,7 @@ angular.module('arbori.controllers', [])
 
 .controller('AppCtrl', function($scope) {
   $scope.attributes = attributes;
-  $scope.species = species; 
+  $scope.species = species;
   $scope.selected_filters = [];
 
   $scope.$watch('selected_filters', function() {
@@ -36,6 +36,7 @@ angular.module('arbori.controllers', [])
     } else {
       $scope.selected_filters.push(attribute_value_id);
     }
+    console.log($scope.selected_filters);
   }
 })
 
