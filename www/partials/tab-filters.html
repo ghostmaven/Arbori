@@ -23,12 +23,12 @@
                   ng-click="filterCheck(attribute.id,attribute_value.id)">
                   <i class="icon icon-large icon-checkbox-attribute ion-android-checkbox-outline-blank"
                     id="{{'attribute_value_' + attribute_value.id}}"></i>
-                  <img src="{{attribute_value.image_path}}">
+                  <img ng-src="{{attribute_value.image_path}}">
                 </div>
                 <div class="item ion-item-attribute item-icon-top-right item-image col-50"
                   ng-click="filterCheck(attribute.id, attribute.attribute_values[$index+1].id)">
                   <i class="icon icon-large icon-checkbox-attribute ion-android-checkbox-outline-blank" id="{{'attribute_value_' + attribute.attribute_values[$index+1].id}}"></i>
-                  <img src="{{attribute.attribute_values[$index+1].image_path}}">
+                  <img ng-src="{{attribute.attribute_values[$index+1].image_path}}">
                 </div>
               </div>
             </div>

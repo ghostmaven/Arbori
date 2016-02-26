@@ -6,7 +6,6 @@
   },
   "dependencies": {
     "jquery": "^2.2.0",
-    "jquery.transit": "^0.9.12",
     "bourbon": "^4.2.6"
   }
 }
