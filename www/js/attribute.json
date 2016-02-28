@@ -80,67 +80,67 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 12,
+        "id": 11,
         "attribute_value": "3-10 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 13,
+        "id": 12,
         "attribute_value": "3-7 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 14,
+        "id": 13,
         "attribute_value": "5-10 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 15,
+        "id": 14,
         "attribute_value": "7-10 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 16,
+        "id": 15,
         "attribute_value": "10-18 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 17,
+        "id": 16,
         "attribute_value": "8-14 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 18,
+        "id": 17,
         "attribute_value": "5-19 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 19,
+        "id": 18,
         "attribute_value": "10-25 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 20,
+        "id": 19,
         "attribute_value": "12-28 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 21,
+        "id": 20,
         "attribute_value": "2-4 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 22,
+        "id": 21,
         "attribute_value": "1-3 cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 23,
+        "id": 22,
         "attribute_value": "6-12(25) cm",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 24,
+        "id": 23,
         "attribute_value": "8-15 cm",
         "image_path": "img/attributes/placeholder.svg"
       }
@@ -153,22 +153,22 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 25,
+        "id": 24,
         "attribute_value": "Ace moi",
         "image_path": "img/attributes/consistenta_ace_moi.svg"
       },
       {
-        "id": 26,
+        "id": 25,
         "attribute_value": "Ace slab rigide",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 27,
+        "id": 26,
         "attribute_value": "Ace foarte rigide",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 28,
+        "id": 27,
         "attribute_value": "Ace rigide",
         "image_path": "img/attributes/placeholder.svg"
       }
@@ -181,42 +181,42 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 29,
+        "id": 28,
         "attribute_value": "Pectinată",
         "image_path": "img/attributes/dispunerea_acelor_pe_lujer_pectinat.svg"
       },
       {
-        "id": 30,
+        "id": 29,
         "attribute_value": "Dispuse pe fața superioară",
         "image_path": "img/attributes/dispunerea_acelor_pe_lujer_pe_fata_superioara.svg"
       },
       {
-        "id": 31,
+        "id": 30,
         "attribute_value": "Radiar",
         "image_path": "img/attributes/dispunerea_acelor_pe_lujer_radiar.svg"
       },
       {
-        "id": 32,
+        "id": 31,
         "attribute_value": "Radiar in smocuri",
         "image_path": "img/attributes/dispunerea_acelor_pe_lujer_radiar_in_smocuri.svg"
       },
       {
-        "id": 33,
+        "id": 32,
         "attribute_value": "Alternă",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 34,
+        "id": 33,
         "attribute_value": "Opusă",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 35,
+        "id": 34,
         "attribute_value": "Spiralat",
         "image_path": "img/attributes/placeholder.svg"
       },
       {
-        "id": 36,
+        "id": 35,
         "attribute_value": "Verticilată",
         "image_path": "img/attributes/placeholder.svg"
       }
@@ -229,7 +229,7 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 37,
+        "id": 36,
         "attribute_value": "Decurent",
         "image_path": "img/attributes/placeholder.svg"
       }
@@ -242,7 +242,7 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 38,
+        "id": 37,
         "attribute_value": "Da",
         "image_path": "img/attributes/placeholder.svg"
       }
@@ -255,22 +255,22 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 39,
+        "id": 38,
         "attribute_value": "Aplatizată",
         "image_path": "img/attributes/forma_frunzei_in_sectiune_aplatizata.svg"
       },
       {
-        "id": 40,
+        "id": 39,
         "attribute_value": "Semicerc",
         "image_path": "img/attributes/forma_frunzei_in_sectiune_semicerc.svg"
       },
       {
-        "id": 41,
+        "id": 40,
         "attribute_value": "Rombică",
         "image_path": "img/attributes/forma_frunzei_in_sectiune_rombica.svg"
       },
       {
-        "id": 42,
+        "id": 41,
         "attribute_value": "Muchiată",
         "image_path": "img/attributes/placeholder.svg"
       }
@@ -283,37 +283,37 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 43,
+        "id": 42,
         "attribute_value": "Ascuțit",
         "image_path": "img/attributes/varful_acelor_ascutit.svg"
       },
       {
-        "id": 44,
+        "id": 43,
         "attribute_value": "Acuminat",
         "image_path": "img/attributes/varful_acelor_acuminat.svg"
       },
       {
-        "id": 45,
+        "id": 44,
         "attribute_value": "Bont",
         "image_path": "img/attributes/varful_acelor_bont.svg"
       },
       {
-        "id": 46,
+        "id": 45,
         "attribute_value": "Rotunjit",
         "image_path": "img/attributes/varful_acelor_rotunjit.svg"
       },
       {
-        "id": 47,
+        "id": 46,
         "attribute_value": "Retezat",
         "image_path": "img/attributes/varful_acelor_retezat.svg"
       },
       {
-        "id": 48,
+        "id": 47,
         "attribute_value": "Știrbit",
         "image_path": "img/attributes/varful_acelor_stirbit.svg"
       },
       {
-        "id": 49,
+        "id": 48,
         "attribute_value": "Spinos",
         "image_path": "img/attributes/varful_acelor_spinos.svg"
       }
@@ -326,47 +326,47 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 51,
+        "id": 49,
         "attribute_value": "verde-inchis-lucitor",
         "image_path": "img/attributes/culoare_frunze_fata_verde_inchis_lucitor.svg"
       },
       {
-        "id": 52,
+        "id": 50,
         "attribute_value": "verde-albastrui",
         "image_path": "img/attributes/culoare_frunze_fata_verde_albastrui.svg"
       },
       {
-        "id": 53,
+        "id": 51,
         "attribute_value": "verde-cenusiu",
         "image_path": "img/attributes/culoare_frunze_fata_verde_cenusiu.svg"
       },
       {
-        "id": 54,
+        "id": 52,
         "attribute_value": "galben-verzui",
         "image_path": "img/attributes/culoare_frunze_fata_galben_verzui.svg"
       },
       {
-        "id": 55,
+        "id": 53,
         "attribute_value": "verde-inchis",
         "image_path": "img/attributes/culoare_frunze_fata_verde_inchis.svg"
       },
       {
-        "id": 56,
+        "id": 54,
         "attribute_value": "verde-deschis",
         "image_path": "img/attributes/culoare_frunze_fata_verde_deschis.svg"
       },
       {
-        "id": 57,
+        "id": 55,
         "attribute_value": "verde",
         "image_path": "img/attributes/culoare_frunze_fata_verde.svg"
       },
       {
-        "id": 58,
+        "id": 56,
         "attribute_value": "verde lucitoar",
         "image_path": "img/attributes/culoare_frunze_fata_verde_lucitor.svg"
       },
       {
-        "id": 59,
+        "id": 57,
         "attribute_value": "doua dungi albe",
         "image_path": "img/attributes/culoare_frunze_fata_2_dungi_albe.svg"
       }
@@ -379,42 +379,42 @@ attributes = [
     "parent_attribute_id": 1,
     "attribute_values": [
       {
-        "id": 60,
+        "id": 58,
         "attribute_value": "verde-gălbui",
         "image_path": "img/attributes/culoare_frunze_spate_verde_galbui.svg"
       },
       {
-        "id": 61,
+        "id": 59,
         "attribute_value": "verde-albastrui",
         "image_path": "img/attributes/culoare_frunze_spate_verde_albastrui.svg"
       },
       {
-        "id": 62,
+        "id": 60,
         "attribute_value": "verde-cenusiu",
         "image_path": "img/attributes/culoare_frunze_spate_verde_cenusiu.svg"
       },
       {
-        "id": 63,
+        "id": 61,
         "attribute_value": "galben-verzui",
         "image_path": "img/attributes/culoare_frunze_spate_galben_verzui.svg"
       },
       {
-        "id": 64,
+        "id": 62,
         "attribute_value": "verde-inchis",
         "image_path": "img/attributes/culoare_frunze_spate_verde_inchis.svg"
       },
       {
-        "id": 65,
+        "id": 63,
         "attribute_value": "doua dungi albe",
         "image_path": "img/attributes/culoare_frunze_spate_2_dungi_albe.svg"
       },
       {
-        "id": 66,
+        "id": 64,
         "attribute_value": "verde-deschis",
         "image_path": "img/attributes/culoare_frunze_spate_verde_deschis.svg"
       },
       {
-        "id": 67,
+        "id": 65,
         "attribute_value": "verde",
         "image_path": "img/attributes/culoare_frunze_spate_verde.svg"
       }

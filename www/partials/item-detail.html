@@ -7,21 +7,18 @@
         <p>{{item.common_name}}</p>
       </ion-item>
       <ion-item class="item item-body">
-        <img class="full-image" src="http://placehold.it/300x150">
-      </ion-item>
-      <ion-item class="item">
-        <p>{{item.description}}</p>
+        <img class="full-image" ng-src="{{item.image_path}}">
       </ion-item>
       <ion-item class="item item-text-wrap">
-        <p>Atribut 1 Atribut 1 Atribut 1 Atribut 1 Atribut 1 Atribut 1
-        AAtribut 1 Atribut 1 Atribut 1tribut 1 Atribut 1 Atribut 1
-        </p> 
+        <a ng-href="{{'http://www.theplantlist.org/tpl1.1/search?q=' + item.binomial_name}}">
+          <img src="img/icons/the_plant_list.ico" alt="Theplantlist link.">
+          <p> theplantlist.org </p>
+        </a>
       </ion-item>
-      <ion-item class="item item-text-wrap">
-        <p>Atribut 1 Atribut 1 Atribut 1 Atribut 1 Atribut 1 Atribut 1
-        AAtribut 1 Atribut 1 Atribut 1tribut 1 Atribut 1 Atribut 1
-        </p>
-      </ion-item>
+        <ion-item class="item item-text-wrap" ng-repeat="info in item.info_list">
+          <b>{{info.info_name}} </b>
+          <p>{{info.info_value}}</p>
+        </ion-item>
     </ion-list>
   </ion-content>
 </ion-view>

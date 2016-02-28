@@ -1,82 +1,852 @@
-species = {
-  "1": {
-    "id": 1,
-    "binomial_name": "Abies alba",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": [1, 3, 4]
-  },
-  "2": {
-    "id": 2,
-    "binomial_name": "Picea abies",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": [1, 2]
-  },
-  "3": {
-    "id": 3,
-    "binomial_name": "Pinus nigra",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-  "4": {
-    "id": 4,
-    "binomial_name": "Taxus baccata",
-    "common_name": "Tisă",
-    "description": "Tisa (Taxus baccata) este un arbore puțin înalt (cca. 12 m).",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-  "5": {
-    "id": 5,
-    "binomial_name": "Taxodium distichum",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-  "6": {
-    "id": 6,
-    "binomial_name": "Quercus robur",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-  "7": {
-    "id": 7,
-    "binomial_name": "Acer platanoides",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-  "8": {
-    "id": 8,
-    "binomial_name": "Acer pseudoplatanus",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-  "9": {
-    "id": 9,
-    "binomial_name": "Fraxinus excelsior",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-  "10": {
-    "id": 10,
-    "binomial_name": "Ailanthus althissima",
-    "common_name": "-",
-    "description": "-",
-    "genus_id": 1,
-    "attribute_list": []
-  },
-}
+  species = {
+      "1": {
+          "id": 1,
+          "binomial_name": "Abies alba",
+          "common_name": "Brad, Brad alb",
+          "description": "-",
+          "image_path": "img/species/abies_alba.jpg",
+          "info_list": [{
+              "info_name": "Genul",
+              "info_value": "Abies",
+          }, {
+              "info_name": "Familia",
+              "info_value": "Pinaceae",
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Pinales",
+          }, {
+              "info_name": "Mărime",
+              "info_value": "până la 65 m înălțime și 5 m grosime",
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Puternic pivotantă, în timp pierde pivotul formând rădăcini laterale ce pătrund adânc în sol.",
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "Dreaptă, cilindrică, cu ramuri regulat-verticilate, dispuse orizontal."
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Cenusie-verzuie, mult timp netedă. În tinerețe prezintă pungi de rășină iar la vârste înaintate dezvoltă un ritidom cenușiu cu solzi poligonali."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Regulat-conică, deasă"
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "Cenușii, netezi, scurt paroși"
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "Mici, ovoizi, nerașinosi cu excepția celor terminali care uneori prezintă rașină la bază."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "Aciculare, 2-3 cm lungime si 2-3 mm lățime. La vârf sunt obtuze sau știrbite, pe față verzi-inchis-lucitoare, pe spate prezintă două dungi albe. Sunt dispuse pectinat, pe două șiruri."
+          }, {
+              "info_name": "Florile",
+              "info_value": "Cele mascule sunt grupate in forma de amenti grosi si alungiti, galbui; cele femele sunt cilindrice, verzui."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "Erecte, cilindrice, de 10-20 cm, cu diametrul de 3-5 cm, brun-roscate."
+          }, {
+              "info_name": "Semințele",
+              "info_value": "Mari de 7-9 mm lungime, triunghiulare, galbui-brune. "
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Are loc in toamna primului an cand solzii se imprastie odata cu semintele, ramanand numai axul mai departe pe lujer. "
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Semintele semanate primavara, incoltesc in 3-4 saptamani. "
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "Incepe de la 30 de ani iar in cazul arborilor aflati in masiv, de la 60-70 de ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Intinerete cresterea in inaltime este foarte lenta, la 10 ani rareori depasesc 1 m. Cresterea se acelereaza dupa 15-20 de ani. Catre 180-200 de ani cresterea se opreste. "
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Pana la 700 de ani."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Albicios, fara duramen, mat, moale, elastic, se despica usor."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "In regiunile muntoase din partile centrale si sudice ale Europei. In Romania este raspandit in etajul montan ca specie de amestec cu fagul si molidul. "
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Se dezvolta bine in conditii de temperatura medie anuala de 5-6 grade Celsius. Prefera umiditatea si este sensibil la ingheturi si arsita. Este cel mai pretentios rasinos indigen."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "Pronuntat de umbra"
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Pe arborii batrani se intaleaza vascul. Ciuperca Aecidium elatinum duce la formarea \"maturii vrajitoarei\" pe ramurile laterale; poate fi vatamat de putregaiul fibros al radacinilor provocat de ciuoerca Armilaria mellea. Sufera de pe urma incendiilor si este ros de animalele salbatice si de vite. Frunzisul este sensibil la fum si la praf."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Deoarece este rezistent la vant poate fi introdus in arboretele de molid pentru consolidare. Acele de brad putrezesc usor si activand descompunerea litierei de molid ceea ce franeaza acidificarea solului."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "Abies alba 'Tortuosa', Abies alba 'Schwarzwald', Abies alba 'Pyramidalis', Abies alba 'Microphylla', Abies alba 'Bystricka', Abies alba 'Green Spiral', Abies alba 'Pendula', Abies alba 'King's Dwarf', Abies alba 'Münsterland', Abies alba 'Compacta'"
+          }],
+          "genus_id": 1,
+          "attribute_list": [ 1, 3, 5, 20, 26, 28, 36, 37, 38, 45, 49, 63 ]
+      },
+      "2": {
+          "id": 2,
+          "binomial_name": "Picea abies",
+          "common_name": "Molid, Molift, Brad rosu",
+          "description": "-",
+          "image_path": "img/species/picea_abies.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "Genul",
+              "info_value": "Picea",
+          }, {
+              "info_name": "Familia",
+              "info_value": "Pinaceae",
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Pinales",
+          }, {
+              "info_name": "Mărime",
+              "info_value": "pana la 60 m inaltime si 2 m diametru",
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Trasanta ceea ce ii permite sa vegeteze pe solurile cele mai superficiale si chiar stancoase.",
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "Dreapta, cilindrica."
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Brun-roscata, uneori cenusie, neteda doar in primii ani. Se desface in solzi subtiri iar la batranete formeaza un ritidom rosu-brun cu fundul crapaturilor roscat."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Piramidal-conica, ascutita"
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "Glabri sau rar-pubescenti, bruni-rosiatici sau galbui-rosiatici."
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "Nerasinosi, cei terminali conici, ascutiti, iar cei laterali ovoizi."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "Aciculare, 1-2.5 cm, rigide, putin incovoiate, in 4 muchii si cu sectiune rombica, de culoare verde inchis. "
+          }, {
+              "info_name": "Florile",
+              "info_value": "Cele mascule in forma de amenti de 2-3 cm, rosii-galbui; cele femele erecte, rosii-carmin sau galbene-verzui.  "
+          }, {
+              "info_name": "Conurile",
+              "info_value": "Lungi de 10-15 cm, verzi sau rosii in tenerete, devin brune la maturitate, pendente, cu solzi subtiri, romboidali cu varf trunchiat emarginat si chiar incretit."
+          }, {
+              "info_name": "Semințele",
+              "info_value": "4-5 mm, brun inchis, cu o aripioara de 12-16mm de care se desprind usor."
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Are loc in toamna primului an cand solzii se departeaza intre ei si lasa semintele sa se imprastie. "
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Semintele semanate primavara, incoltesc in 4-5 saptamani"
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "Incepe de la 30 de ani iar in cazul arborilor aflati in masiv, de la 60 de ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "In tinerete cresterea in inaltime este foarte lenta, spre 8-10 ani devenind foarte activa - pana la 1 m anual."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Pana la 600 de ani."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Fara duramen evident, alb, moale, usor, rezistent, trainic, nu se deformeaza prin uscare."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Ocupa un areal extins in Europa care cuprinde Alpii, Scandinavia, Finlanda, in regiunile nordice coboara pana la nivelul marii. Formeaza insule si in Balcani. In Romania este o specie montana si subalpina formand \"subzona molidului\"."
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Este o specie de climat umed, se multumeste cu un sezon scurt de vegetatie, nu suporta secetele. Prefera soluri nisipo-lutoase pana la luto-nisipoase, reavane, afanate, moderat-acide."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "Mijlociu, mai pretentios fata de lumina ca bradul."
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Vantul produce doboraturi pe suprafete mari din cauza indradacinarii superficiale. Zapada si chiciura provoaca ruperea ramurilor sau chiar a trunchiurilor. Ciuperca Lophodermium macrosporum provoaca rugina acelor, din cauza atacului de Armilaria mellea si Fomes anosus radacinile si partea bazala a tulpinii putrezesc. Dintre insecte, este atacat de gandacii de scoarta si omida paroasa."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Calitate tehnica superioara a lemnului. Din punct de vedere horticol este utilizat ca arbore decorativ si pentru formarea de garduri vii - se tunde usor si formeaza o coroana regulata si deasa."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "var. pyramidlais Carr. Cu coroana strans piramidala; var. inversa Beiss cu  ramuri pendente; var. viminalis Casparay cu ramuri de ordinul I orizontale, cele de ordinul II subtiri si pendente; var. Virgata Caspary, cu ramuri lungi, serpuitoare. "
+          }],
+          "attribute_list": [ 1, 4, 5, 20, 25, 30, 40, 42, 52, 58 ]
+      },
+      "3": {
+          "id": 3,
+          "binomial_name": "Pinus nigra",
+          "common_name": "Pin negru, Pin austriac",
+          "description": "-",
+          "image_path": "img/species/pinus_nigra.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul ",
+              "info_value": "Pinus"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Pinaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Pinales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "pana la 40 m inaltime"
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Pivotanta cu radacini laterale puternice care ii permit sa creasca si pe coaste stancoase."
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "Dreapta cu verticile regulate."
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Cenusie-negricioasa, formeaza de timpuriu ritidom adanc de culoare negricioasa. "
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Piramidala, deasa, la batranete devine uneori tabulara."
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "Foarte grosi, bruni-negriciosi, glabri."
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "Rasinosi, cilindrici, brunci-cenusii, de 12-14 mm."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "Aciculare, grupate cate 2, de 8-14 cm lungime, rigide, ascutite, drepte sau putin curbate spre lujer. "
+          }, {
+              "info_name": "Florile",
+              "info_value": "Cele mascule in forma de amenti verzi-galbui, cele femele verzi cu nuante violacee."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "Cate 2-4, stau perpendicular pe lujeri, sesile, ovoid-conice. Au aproximativ 1 cm in primul an si ajung la 5-8 cm in toamna anului al doilea. Sunt de culoare brun-galbuie."
+          }, {
+              "info_name": "Semințele",
+              "info_value": "Mari de 5-6 mm, de culoare deschisa, uneori pestrite, cu o aripa neagra."
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Bienala, conurile se desfac in primavara anului al treilea."
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Are putere germinativa de 60-70% ce se pastreaza pana la 3 ani."
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "Incepe la 20-30 de ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Destul de rapida incepand cu al treilea an."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Pana la 600 de ani."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Dens, duramen rosu-brun, putin elastic. Se lucreaza greu din cauza rasinii."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Creste la altitudini variind intre 300 si 1300 de metri. Prin cultura, a fost extins aproape in intreaga Europa."
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Pretinde veri calduroase cu atmosfera uscata, evita regiunile cu clima umeda. Rezista bine la ger. Prefera solurile nisipo-lutoase cu umiditate redusa."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "Soare, semiumbra."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Arbore forestier si arbore decorativ."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "var. banatica Borb. - Pin de Banat"
+          }],
+          "attribute_list": [ 1, 4, 6, 16, 26, 31, 42, 53, 62 ]
+      },
+      "4": {
+          "id": 4,
+          "binomial_name": "Taxus baccata",
+          "common_name": "Tisă",
+          "description": "-",
+          "image_path": "img/species/taxus_baccata.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul ",
+              "info_value": "Taxus"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Taxaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Pinales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "Poate ajunge la inaltimi de peste 20 m"
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Pivotant-trasanta"
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "La unele exemplare creste drept, la exemplarele formate din lastar formeaza mai multe tulpini luand aspect de tufa."
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Scoarta tulpinilor tinere este brun-roscata; formeza de timpuriu un ritidom cenusiu-roscat care se exfoliaza in placi alungite."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Coroana arborilor izolati este larg-piramidala. Ramurile de jos cresc paralel cu tulpina iar cele dinspre varf cresc in laturi."
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "Verzi-galbui, zvelti."
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "Ovoizi, prevazuti cu solzi verzui."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "Persistente, acicular-latite, pana la 3 cm lungime, scurt-acuminate la varf, la baza ingustate intr-un petiol scurt decurent pe lujer. Sunt pieloase, fara canale rezinifere, moi, de culoare verde-inchis-lucitor pe fata si verde-galbui pe dos."
+          }, {
+              "info_name": "Florile",
+              "info_value": "Unisexuat-dioice si rareori unisexuat-monoice, apar devreme primavara. Cele mascule sunt globulare, galbene iar cele femele stau invelite in mugure."
+          }, {
+              "info_name": "Semințele",
+              "info_value": "Sunt lungi de aproape 1 cm, ovoide, tegumentul lemnos este acoperit pana aproape de varf cu un invelis carnos ce are culoare rosie."
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Anuala, diseminatia are loc prin pasari. "
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Semintele se seamana toamna si germineaza greu, abia in primavara anului al treilea."
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "Incepe de la 20 de ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Dintre conifere, tisa are cresterea cea mai lenta."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Foarte mare: 2000-3000 de ani."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Textura fina, dens, tare, foarte elastic si trainic. Prezinta Alburn ingust si duramen rosu-brun."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Originar din Europa, se intinde de la Oceanul Atlantic pana in sudul Marii Caspice. La noi se gaseste in regiunile muntoase, localizat prin arboretele de fag cu rasinoase."
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Vegeteaza bine in climat cu umiditate atmosferica ridicata. Sufera din cauza gerurilor puternice iar vantul rece si uscat ii provoaca brunificarea frunzelor."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "Tipic de umbra"
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Tisa este rezistenta la vatamarile ciupercilor si animalelor, isi vindeca usor ranile."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Lemnul de tisa este foarte valoros fiind folosit la realizarea mobilei de lux. Are de asemenea valoare decorativa."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "var. fastigiata Loud. (Tisa de Irlanda) care se caracterizeaza prin coroana columnara si ace curbate; var. adpressa Carr. Cu coroana latit-neregulata, ace mici 6-10 mm cu varf obtuz."
+          }],
+          "attribute_list": [ 1, 3, 5, 28, 30, 38, 43, 49, 58 ]
+      },
+      "5": {
+          "id": 5,
+          "binomial_name": "Taxodium distichum",
+          "common_name": "Chiparos de balta",
+          "description": "-",
+          "image_path": "img/species/taxodium_distichum.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul ",
+              "info_value": "Taxodium"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Cupresaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Pinales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "Ajunge la 50 de m inaltime, diametru de pana la 4m"
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Trasanta atunci cand creste in conditiile normale din regiunile inundabile. In asemenea zone mlastinoase are capacitatea de a dezvolta organe de respiratie denumite pneumatofori care ies ca niste tepuse deasupra apei.  In cazul in care este cultivat in zone uscate, puietii dezvolta un pivot lung si puternic."
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "Dreapta, puternic latita la baza."
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Subtire, neteda, brun-roscata, formeaza devreme ritidom subtire si putin crapat care se exfoliaza in fasii longitudinale."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Rara, luminoasa, verdre-deschis, ramuri subtiri. Se pastreaza mult timp conica, la varste inaintate ia o forma neregulat-rasfirata."
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "De doua feluri: lujeri persistenti, bruni-lucitori, cu muguri subglobulosi, frunze mici, solzoase si lujeri cazatori, subtiri, verzi, fara muguri, poarta fruze liniare, moi, verzi-deschis, toamna se inrosesc si cad impreuna cu lujerii. "
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "De doua feluri: unele mici, solzoase dispuse pe lujerii persistenti si altele lineare, turtite, înguste, apiculate, foarte moi, verzi-deschis, de 1-1,5 cm lungime. Toamna, înainte de cădere, devin portocalii."
+          }, {
+              "info_name": "Florile",
+              "info_value": "Unisexuat-monoice, cele barbatesti mici, globulare, asezate in panicule pendente, lungi de 10-12 cm; cele femele tot globulare, stau cate una sau mai multe la un loc."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "Aproape sferice, 2-3 cm cu solzi lemnosi, prevazuti cu un mucron."
+          }, {
+              "info_name": "Semințele",
+              "info_value": "nearipate, câte două sub un solz, mari (8-15 mm lungime), deforme neregulate, muchiate, brune-roşcate, cu multă răşină."
+          }, {
+              "info_name": "Maturația",
+              "info_value": "In toamna primului an, prin octombrie-noiembrie."
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Destul de rapida."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Foarte activa: in primul an puietii ajung pana la 0.5m, la 100 de ani realizeaza circa 30 m inaltime."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Exceptionala: 6000 de ani"
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Duramen brun-galbui-rosiatic, foarte omogen, usor, moale, trainic."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Specie exotică, răspândită în ţinuturile sud-estice ale"
+          }, {
+              "info_name": "Americii de Nord, în regiunile de coastă, de mică altitudine, ale Oceanului Atlantic",
+              "info_value": "şi Golfului Mexic. In Europa a fost introdus in 1640; la noi in tara este cultivat ca specie ornamentala in parcuri."
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "În cea mai mare parte a arealului său din patria de origine, chiparosul de baltă se află sub influenţa unui climat oceanic, umed.În culturile din Europa, chiparosul de baltă s-a adaptat destul de bine la condiţii climatice diferite de cele din arealul natural, cu geruri şi îngheţuri mai frecvente. Propice dezvoltării chiparosului de baltă sunt ţinuturile meridionale, cu climat blând, în staţiuni în care apa stagnează periodic, iar după retragere devine accesibilă din pânza freatică."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "Pronuntat de lumina"
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Nu se semnaleaza vatamari importante."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Poate fi plantat in zone inundabile acolo unde alte specii nu ar putea supravietuii. Are valoare ornamentala."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "Taxodium distichum var. imbricatum (Nutt.) Croom"
+          }],
+          "attribute_list": [ 1, 2, 3, 4, 5, 15, 24, 32, 38, 42, 54, 64, 67, 68, 71 ]
+      },
+      "6": {
+          "id": 6,
+          "binomial_name": "Quercus robur",
+          "common_name": "Stejar, Tufan",
+          "description": "-",
+          "image_path": "img/species/quercus_robur.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul",
+              "info_value": "Quercus"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Fagaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Fagales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "Ajunge pana la 40 de m inaltime"
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": ".....este foarte puternică, pivotantă. Doar pe soluri hidromorfe, de tipul lăcoviştilor, pivotul este mai puţin dezvoltat sau poate putrezi."
+          }, {
+              "info_name": "Tulpina",
+              "info_value": ".....Tulpina este, în general, destul de bine conformată, cu ritidom format de timpuriu, brun-negricios, pietros, adânc crăpat longitudinal şi transversal"
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Neteda, lucitoare pana la 20-25 de ani, formeaza apoi ritidom negricios, tare, cu brazde largi."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Larga, intrerupta cu ramuri puternice, noduroase, intinde orizontal."
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "sunt glabri, vigurosi, cu lenticele mici, rare, bruni-măslinii"
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "mugurii ovoizi, bruni-lucitori, cel terminal mai mare şi cu 4-5 muchii longitudinale."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "variabile ca mărime (6-20 cm lungime) şi formă, mai adesea obovate, cu baza auriculată, uneori asimetrică, scurt peţiolate, au 4-8 perechi de lobi (sunt lobate până la penat-fidate) obtuzi sau rotunjiţi, separaţi prin sinuri inegale; pe faţă sunt verzi închis, iar pe dos sunt glabre sau, mai rar, puberule, mai ales în lungul nervurilor"
+          }, {
+              "info_name": "Florile",
+              "info_value": "unisexuat monoice, cele femele lung pedunculate, grupate câte 3-6 pe un peduncul comun."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "*FRUCTELE achene ovoidale până la cilindrice, de 2-4 cm lungime, cu vârful acut, până la maturite cu dungi verzui longitudinale, apoi brune-gălbui; stau câte 2-5 pe un peduncul comun de 3-6 (10) cm lungime, în cupe emisferice de 8-12 mm înălţime; solzii cupei sunt triunghiular-imbricaţi"
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Septembrie-octombrie"
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Putere germinativa de 70-80%"
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "Maturitatea arborilor izolati incepe la 30-40 de ani iar in masiv dupa 70 de ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Creşterea puieţilor de stejar este destul de înceată în primul deceniu, mai ales în condiţii de aflux scăzut de lumină, lungimea lujerului anual fiind adeseori de numai 20-30 cm. Ulterior, dacă lumina este suficientă, creşterea în înălţime devine foarte activă. Creşterea rămâne activă până la 150-200 de ani."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Pana la circa 1500-2000 de ani."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Lemnul prezintă calităţi remarcabile (tare, elastic, durabil în aer şi apă), care-l recomandă pentru multiple utilizări în industria mobilei (furnir frumos colorat), în construcţii (grinzi de rezistenţă, parchete, frize, lambriuri), în tâmplărie, dogărie ş.a. Duramenul este brun-roşcat, cu inele anuale distincte, late. Lemnul de crăci se poate folosi pentru foc, având însă putere calorică mai mică decât cel de gârniţă şi cer."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Cuprinde aproape intreaga Europa. La noi creste in zona forestiera de campie si urca mai rar la dealuri."
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Pretinde caldura pe parcursul sezonului cald si este rezistent la seceta. Rezista destil de bine la seceta. Prefera soluri profunde, afanate si reavane, cu un grad ridicat de fertilitate."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "Pronuntat de lumina"
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Sufera din cauza pasunatului desi are capacitate buna de a isi vindeca ranile. Poate fi vatamat si de insecte care ataca radacinile puietilor. Microsphaera abbreviala provoaca fainarea frunzelor."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Lemnul prezintă calităţi remarcabile (tare, elastic, durabil în aer şi apă), care-l recomandă pentru multiple utilizări în industria mobilei (furnir frumos colorat), în construcţii (grinzi de rezistenţă, parchete, frize, lambriuri), în tâmplărie, dogărie ş.a. Duramenul este brun-roşcat, cu inele anuale distincte, late. Lemnul de crăci se poate folosi pentru foc, având însă putere calorică mai mică decât cel de gârniţă şi cer. Stejarul conţine tanin de bună calitate în scoarţă. Este un arbore cu valoare ornamentala."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "Quercus robur var. tardiflora Cern. şi Q. r. var. praecox Cern.; Q. r. var. glabra (Gord.) Schwz., cu frunzele pe dos glabre, de la început; Q. r. var. puberula (Lasch.) Schwz., cu frunzele pe dos, în lungul nervurilor, puberule, cu peri mici, fasciculaţi; Q. r. f. microphylla Georg. et Mor., cu frunze mici, de numai 3-9 cm lungime şi 2-4 cm lăţime; Q. r. f. vera (Lasch) Schwz., cu câte 2-4 ghinde pe un peduncul de 2,5-7cm lungime; Q. r. f. brevipes (Heuff.) Beck, cu pedunculii cupelor de numai 1-3 cm lungime; Q. r. f. extensa, cu pedunculii cupelor de lungimea frunzelor sau chiar mai lungi; Q. r. f. tuberosa (Schur) Schwz., cu achene lungi şi subţiri, de 3-4 cm lungime şi până la 1,2 cm diametru; Q. r. f. perrobusta Borb., cu achene mari, de 3-5 cm lungime şi cupe, de asemenea, mari, de până la 2,5 cm diametru, cu pereţi groşi şi solzi adesea gheboşi; Q. r. f. fastigiata (Lam.) Schwz., cu ramuri erecte şi coroana îngustă, piramidală."
+          }],
+          "attribute_list": []
+      },
+      "7": {
+          "id": 7,
+          "binomial_name": "Acer platanoides",
+          "common_name": "Paltin de camp, Artar",
+          "description": "-",
+          "image_path": "img/species/acer_platanoides.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul",
+              "info_value": "Quercus"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Fagaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Fagales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "Ajunge pana la 40 de m inaltime"
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": ".....este foarte puternică, pivotantă. Doar pe soluri hidromorfe, de tipul lăcoviştilor, pivotul este mai puţin dezvoltat sau poate putrezi."
+          }, {
+              "info_name": "Tulpina",
+              "info_value": ".....Tulpina este, în general, destul de bine conformată, cu ritidom format de timpuriu, brun-negricios, pietros, adânc crăpat longitudinal şi transversal"
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Neteda, lucitoare pana la 20-25 de ani, formeaza apoi ritidom negricios, tare, cu brazde largi."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Larga, intrerupta cu ramuri puternice, noduroase, intinde orizontal."
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "sunt glabri, vigurosi, cu lenticele mici, rare, bruni-măslinii"
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "mugurii ovoizi, bruni-lucitori, cel terminal mai mare şi cu 4-5 muchii longitudinale."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "variabile ca mărime (6-20 cm lungime) şi formă, mai adesea obovate, cu baza auriculată, uneori asimetrică, scurt peţiolate, au 4-8 perechi de lobi (sunt lobate până la penat-fidate) obtuzi sau rotunjiţi, separaţi prin sinuri inegale; pe faţă sunt verzi închis, iar pe dos sunt glabre sau, mai rar, puberule, mai ales în lungul nervurilor"
+          }, {
+              "info_name": "Florile",
+              "info_value": "unisexuat monoice, cele femele lung pedunculate, grupate câte 3-6 pe un peduncul comun."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "*FRUCTELE achene ovoidale până la cilindrice, de 2-4 cm lungime, cu vârful acut, până la maturite cu dungi verzui longitudinale, apoi brune-gălbui; stau câte 2-5 pe un peduncul comun de 3-6 (10) cm lungime, în cupe emisferice de 8-12 mm înălţime; solzii cupei sunt triunghiular-imbricaţi"
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Septembrie-octombrie"
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Putere germinativa de 70-80%"
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "Maturitatea arborilor izolati incepe la 30-40 de ani iar in masiv dupa 70 de ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Creşterea puieţilor de stejar este destul de înceată în primul deceniu, mai ales în condiţii de aflux scăzut de lumină, lungimea lujerului anual fiind adeseori de numai 20-30 cm. Ulterior, dacă lumina este suficientă, creşterea în înălţime devine foarte activă. Creşterea rămâne activă până la 150-200 de ani."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Pana la circa 1500-2000 de ani."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Lemnul prezintă calităţi remarcabile (tare, elastic, durabil în aer şi apă), care-l recomandă pentru multiple utilizări în industria mobilei (furnir frumos colorat), în construcţii (grinzi de rezistenţă, parchete, frize, lambriuri), în tâmplărie, dogărie ş.a. Duramenul este brun-roşcat, cu inele anuale distincte, late. Lemnul de crăci se poate folosi pentru foc, având însă putere calorică mai mică decât cel de gârniţă şi cer."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Cuprinde aproape intreaga Europa. La noi creste in zona forestiera de campie si urca mai rar la dealuri."
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Pretinde caldura pe parcursul sezonului cald si este rezistent la seceta. Rezista destil de bine la seceta. Prefera soluri profunde, afanate si reavane, cu un grad ridicat de fertilitate."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "Pronuntat de lumina"
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Sufera din cauza pasunatului desi are capacitate buna de a isi vindeca ranile. Poate fi vatamat si de insecte care ataca radacinile puietilor. Microsphaera abbreviala provoaca fainarea frunzelor."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Lemnul prezintă calităţi remarcabile (tare, elastic, durabil în aer şi apă), care-l recomandă pentru multiple utilizări în industria mobilei (furnir frumos colorat), în construcţii (grinzi de rezistenţă, parchete, frize, lambriuri), în tâmplărie, dogărie ş.a. Duramenul este brun-roşcat, cu inele anuale distincte, late. Lemnul de crăci se poate folosi pentru foc, având însă putere calorică mai mică decât cel de gârniţă şi cer. Stejarul conţine tanin de bună calitate în scoarţă. Este un arbore cu valoare ornamentala."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "Quercus robur var. tardiflora Cern. şi Q. r. var. praecox Cern.; Q. r. var. glabra (Gord.) Schwz., cu frunzele pe dos glabre, de la început; Q. r. var. puberula (Lasch.) Schwz., cu frunzele pe dos, în lungul nervurilor, puberule, cu peri mici, fasciculaţi; Q. r. f. microphylla Georg. et Mor., cu frunze mici, de numai 3-9 cm lungime şi 2-4 cm lăţime; Q. r. f. vera (Lasch) Schwz., cu câte 2-4 ghinde pe un peduncul de 2,5-7cm lungime; Q. r. f. brevipes (Heuff.) Beck, cu pedunculii cupelor de numai 1-3 cm lungime; Q. r. f. extensa, cu pedunculii cupelor de lungimea frunzelor sau chiar mai lungi; Q. r. f. tuberosa (Schur) Schwz., cu achene lungi şi subţiri, de 3-4 cm lungime şi până la 1,2 cm diametru; Q. r. f. perrobusta Borb., cu achene mari, de 3-5 cm lungime şi cupe, de asemenea, mari, de până la 2,5 cm diametru, cu pereţi groşi şi solzi adesea gheboşi; Q. r. f. fastigiata (Lam.) Schwz., cu ramuri erecte şi coroana îngustă, piramidală."
+          }],
+          "attribute_list": []
+      },
+      "8": {
+          "id": 8,
+          "binomial_name": "Acer pseudoplatanus",
+          "common_name": "Paltin de munte",
+          "description": "-",
+          "image_path": "img/species/acer_pseudoplatanus.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul",
+              "info_value": "Acer"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Sapindaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Sapindales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "Talia I, ajungand pana la 30 m."
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Pivotant-trasanta, alcatuita dintr-un pivot scurt, cu numeroase radacini laterale."
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "Dreapta, cilindrica, bine elagata in masiv; in stare izolata trunchiul ramane scurt."
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Scoarţa netedă până la 30-40 de ani, cenuşie, apoi dezvoltă ritidom subţire, solzos, brun sau brun-gălbui, care se exfoliază în plăci de mărimi şi forme variabile."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Larga, ovoida sau obovata, neregulat intrerupta."
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "Lujerii viguroşi, verzi până la bruni-deschis, glabri, lucitori."
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "Mugurii sunt mari (comparativ cu celelalte specii indigene de Acer), ovoizi, opuşi, cu solzi verzui, pe margine tiviţi cu o dungă brună, îngustă; cel terminal mai mare şi tetramuchiat, cei laterali sunt depărtaţi de lujer."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "Frunzele 5-palmat-lobate, de 10-18 cm lungime, cu baza cordiformă, terminate într-un peţiol lung de 5-15 cm, care nu conţine suc lăptos. Lobii sunt ovaţi, pe margine neregulat crenaţi-seraţi, la vârf acuţi sau scurt acuminaţi, despărţiţi prin sinuri cu baza îngustată, ascuţită, pe faţă sunt verzi-închis, iar pe dos verzi-albăstrui-mate."
+          }, {
+              "info_name": "Florile",
+              "info_value": "Florile sunt poligame, andromonoice, grupate în panicule pendente, verzuigălbui, lungi de 5-15 cm şi apar după înfrunzire."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "* FRUCTELE sunt bisamare cu aripile de 3-4 cm lungime, dispuse în unghi ascuţit sau drept, iar nuculele sunt convexe."
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Septembrie"
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Anevoioasa, semintele trebuie stratificate inainte de semanare"
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "In masiv incepe de la cc 35 - 40 de ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Creşterea puieţilor de paltin este activă, adeseori chiar mult prea intensă decât a speciilor cu care coabitează. După 60-70 de ani capacitatea sa de bioacumulare se reduce din ce în ce mai mult, fiind depăşit de speciile amintite."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "400-500 de ani"
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Valoros, alb-galbui, fara duramen, cu textura fina, rezistent, greu si elastic. Se contracta si se dilata putin."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Cuprinde teritorii însemnate din ţinuturile europene de la sud de paralela de 50°. În ţara noastră vegetează în regiunile de deal, dar mai ales în cele montane, unde urcă până la 1500 – 1600 m. Izolat apare şi în rariştile de limită şi în subalpinul inferior, unde rămâne însă de dimensiuni mici."
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Paltinul este specie mezotermă, de climat răcoros în timpul sezonului de vegetaţie, cu umiditate atmosferică ridicată, condiţii pe care le întâlneşte peste tot în arealul său montan. Este rezistent la ger şi faţă de îngheţuri. Poate vegeta bine şi în climatul cu mai multă căldură estivală, mai sărac în precipitaţii şi cu mai puţină umiditate atmosferică de la dealuri şi chiar de la câmpie, unde a fost cultivat îndeosebi în scop ornamental."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "De lumina."
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Nu sufera din cauza ciupercilor sau insectelor insa se inregistreaza pagube din cauza vanturilor puternice sau a animalelor. "
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Lemnul său este considerat nobil, foarte apreciat fiind mai ales aşa-numitul “paltin creţ”, cu fibra ondulată, folosit în industria mobilei, pentru furnir sau pentru placări interioare, instrumente muzicale ş.a.; Valoarea silviculturală a paltinului îl recomandă ca specie amelioratoare de sol (frunzele se descompun uşor şi contribuie la humificare, dar şi pentru consolidarea arboretelor de molid împotriva acţiunii mecanice a vântului. Este una dintre cele mai valoroase specii de amestec pentru pădurile montane. Este un apreciat arbore ornamental, cu posibilităţi de utilizare fie izolat, fie în aliniamente, cu înflorire abundentă, frunze frumos conformate şi colorate specific la unele varietăţi horticole"
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "f. quinquelobum (Gilib.), cu frunze tipice, 5-lobate, larg cordate, iar lobii au vârfuri acuminatîngustate; f. vitifolium (Opiz.), cu lobii la vârf obtuzi, cel mult acuţi; f. palmatifidum Duhamel, cu frunze adânc divizate (până la 2/3 sau 3/4 din lamină); f. purpureum Loud., cu frunzele pe dos ± purpurii (adesea şi aripile bisamarei roşii-deschis); f. erytrocarpum Carr. - cu bisamarele roşii; var. subtrilobum Schwerin, la care frunzele au trei lobi evidenţi (alţi doi lobi - cei bazali - foarte mici); var. villosum (Presl.), cu dosul frunzelor şi pedunculii florali cu peri evidenţi ş.a."
+          }],
+          "attribute_list": []
+      },
+      "9": {
+          "id": 9,
+          "binomial_name": "Fraxinus excelsior",
+          "common_name": "Frasin comun",
+          "description": "-",
+          "image_path": "img/species/fraxinus_excelsior.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul",
+              "info_value": "Fraxinus"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Oleaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Lamiales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "Depaseste uneori inaltimea de 35 m si diametrul de 1 m."
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Puternica, bine ramificata si profunda, cu o retea deasa de radacini superficiale subtiri, care ususca orizonturile superioare ale solului."
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "Dreapta, prezinta ramuri putine, indreptate in sus; se elagheaza de timpuriu pe inaltime mare. Tulpina este de multe ori infurcita, din cauza pierderii mugurelui terminal."
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "In tinerete, cenusie-verzuie; la baza formeaza de timpuriu ritidom necgricios, cu crapatrui ondulate si marunte, care contrasteaza evident cu scoarta neteda si verzuie din partile superioare."
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Regulat ovoida, rara si transparenta, cu lujeri si vigurosi ascendenti."
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "Grosi, turtiti in dreptul mugurilor, verzui-cenusii, glabri; pe arborii batrani apar brahiblaste noduroase, curbate in sus"
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "Mugurii opuşi sau imperfect opuşi, cei laterali mici, globuloşi,cel terminal mai mare, tetragonal-piramidal; caracteristic, sunt de culoare neagrămată."
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "Imparipenat-compuse, mari de 30 - 40 cm lungime, 9 - 15 foliole de 6 - 10 cm, sesile, ovat-lanceolate, acuminate, la baza ingustate, cu margini marunt-serate; pe dos, de un verde-deschis si uneori slab pubescente de-a lungul nervurii mediane."
+          }, {
+              "info_name": "Florile",
+              "info_value": "Mici, negre-ciolacee, obisnuit poligame, lipsite de corola si caliciu; sunt grupate in panicule si apar inaintea infrunzirii, la sfarsitul lunii aprilie, din mugurii laterali de la varful lujerilor."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "* FRUCTELE sunt samare spatulate, lanceolate, rar eliptice, de 2-4 cm lungime,nucula turtită, la bază uşor cuneate sau rotunjite; aripa decurentă până la bazanuculei, la vârf obtuză, emarginată sau chiar acută."
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Anuala, prin octombrie, fructele ramanand peste iarna pe arbore."
+          }, {
+              "info_name": "Germinația",
+              "info_value": "Anevoiioa, semintele rasarind numai in al doilea an. Cand sunt culese in parga si semanate de cu toamna, rasar in primavara urmatoare; altfel, samanta trebuie stratificata inainte de semanare."
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "In masiv incepe de la cc 35 - 40 de ani; izolat sau in culturile din regiuni secetoase, arborii incep sa fructifice si de la 10 ani."
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Inceata in primii 2 ani, puietii ajungand la cca. 20 cm; apoi devine tot mai activa (peste 0.5 mm annual) si realizata maxim intre 30 si 40 de ani."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "Peste 200 de ani."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Duramen brun-deschis, vargat, foarte elastic, matasos, lucios."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Este răspândit aproape în toată Europa. În ţara noastră se întâlneşte de obicei diseminat, mai rar în arborete pure pesuprafeţe restrânse. Apare de la câmpie, din staţiuni de luncă, până în staţiunile montane de altitudine mijlocie, la circa 1 400 m. "
+          }, {
+              "info_name": "Cerințe ecologice",
+              "info_value": "Frasinul comun prezintă amplitudine climaticădestul de largă, ce-i permite să ocupe teritorii atât de importante, din ţinuturilemediteraneene până în cele boreale, sau de la câmpie până în regiunea montanămijlocie. Este însă afectat adeseori de îngheţurile târzii. La altitudini mici, specifice câmpieiforestiere, este localizat mai ales în luncile râurilor, unde găseşte umiditatesuficientă, suportând chiar inundaţii de scurtă durată."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "De lumina. De remarcat ca in primii de si pe solurile fertile puietii pot suporta o umbrire cat de deasa; la maturitate, frasinul devine insa foarte exigent fata de lumina."
+          }, {
+              "info_name": "Vătămările",
+              "info_value": "Sunt provocate de insecte: Lytta vesicaloria poate duce la defolierea integrala a unui arbore. Sufera de asemenea si din cauza gerurilor tarzii."
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Frasinul este o specie excelentă de amestec, înnobilând arboretele, protejând solul şi ameliorându-l prin frunzele sale uşor alterabile. Este apreciat şi ca specie ornamentală, ca arbore izolat sau în aliniamente de-a lungul şoselelor."
+          }, {
+              "info_name": "Varietăți și cultivare",
+              "info_value": "Fraxinus excelsior var. obtusata Schur, cu aripa samarei lăţită la partea superioară, cu vârfulobtuz sau emarginat - varietatea comună la noi; Fr. e. var. acuminata Schur, cu aripa samarei alungit-ovată, ascuţită la vârf; Fr. e. var. diversifolia Ait. (Fr. monophylla Desf.), mutantă naturală cu frunzele obişnuitsimple sau compuse, dar cu numai o pereche de foliole mici la bază. Foliolele sunt întregi sau cu 1-2lobi laterali; Fr. e. var. pendula Ait, cu lujerii pendenţi; Fr. e. var. aurea (Wild.) Pers., cu lujeri şi flori de culoare galbenă."
+          }],
+          "attribute_list": []
+      },
+      "10": {
+          "id": 10,
+          "binomial_name": "Ailanthus altissima",
+          "common_name": "Cenuser, Fals otetar",
+          "description": "-",
+          "image_path": "img/species/ailanthus_altissima.jpg",
+          "genus_id": 1,
+          "info_list": [{
+              "info_name": "﻿Genul",
+              "info_value": "Ailanthus"
+          }, {
+              "info_name": "Familia",
+              "info_value": "Simaroubaceae"
+          }, {
+              "info_name": "Ordinul",
+              "info_value": "Sapindales"
+          }, {
+              "info_name": "Mărime",
+              "info_value": "Arbore de talia a III-a, uneori arbust"
+          }, {
+              "info_name": "Înrădăcinare",
+              "info_value": "Trasanta, mult intinsa in laturi"
+          }, {
+              "info_name": "Tulpina",
+              "info_value": "Scurta, se desface in putine ramuri groase ascendente"
+          }, {
+              "info_name": "Scoarță",
+              "info_value": "Cenusie-deschis, marunt-reticulat-brazdata, fara sa atinga insa grosimi prea mari"
+          }, {
+              "info_name": "Coroană",
+              "info_value": "Rara, intrerupta"
+          }, {
+              "info_name": "Lujerii",
+              "info_value": "Foarte grosi, bruni, cu lenticele mari, fin-pubescenti; madava lata, roscata-galbuie"
+          }, {
+              "info_name": "Mugurii",
+              "info_value": "Alterni, mici, emisferici, bruni, tomentosi; cicatricea mare in forma de potcoava, c numeroase urme fasciculare"
+          }, {
+              "info_name": "Frunzele",
+              "info_value": "Frunzele sunt alterne, imparipenat-compuse, foarte mari (45-70 cm), cu11-25 foliole urât mirositoare, lanceolat-ovate, de 6-12 cm lungime, la bazătrunchiate şi cu 1-2 dinţi glanduloşi."
+          }, {
+              "info_name": "Florile",
+              "info_value": "Florile poligame, foarte mici (7-8 mm), verzi sau gălbui, grupate înpanicule terminale mari (15-20 cm lungime), erecte, laxe."
+          }, {
+              "info_name": "Conurile",
+              "info_value": "* FRUCTELE sunt samare oblongi, de 3-4 cm lungime, la coacere brune-roşcate,apoi brune-gălbui, torsionate, cu o ştirbitură în zona mediană a unei laturi.Sămânţa este aşezată central. Fructifică aproape anual, abundent, de timpuriu(de la 5-6 ani)."
+          }, {
+              "info_name": "Maturația",
+              "info_value": "Anuala, prin octombrie, fructele ramanand peste iarna pe arbore."
+          }, {
+              "info_name": "Maturitatea",
+              "info_value": "Timpurie (5 - 6 ani)"
+          }, {
+              "info_name": "Creșterea",
+              "info_value": "Foarte rapida, pana la 10 - 15 ani; exemplarele provenite din drajoni in primul an depasesc 2 m inaltime si 5 cm grosime."
+          }, {
+              "info_name": "Longevitatea",
+              "info_value": "40 - 50 de ani, fiind devreme atacat de putregai."
+          }, {
+              "info_name": "Lemnul",
+              "info_value": "Duramen galbui cu nuante vinetii, tare, greu. Se despica si se lucreaza usor."
+          }, {
+              "info_name": "Drajonează",
+              "info_value": "Foarte puternic, pana la mari distante."
+          }, {
+              "info_name": "Arealul",
+              "info_value": "Specie alohtonă, originară din China, cultivată foarte mult la noiîndeosebi în sudul ţării, unde a devenit pe alocuri subspontană. Culturile suntcu caracter ornamental sau în terenuri degradate (fixează coastele, taluzurileetc)."
+          }, {
+              "info_name": "cerințe ecologice",
+              "info_value": "adaptabilitatea climatică este limitată, manifestând sensibilitatefaţă de gerurile mari de iarnă şi îngheţurile timpurii. de aceea, preferă climatele blânde şi staţiunile adăpostite, în regiuni cu sezon lung de vegetaţie. rezistă relativ bine la secetă, dar nu înexces. vegetează activ pe soluri profunde, aerisite. are caracter semihalofil, cenuşerul fiind aptpentru fixarea nisipurilor marine."
+          }, {
+              "info_name": "Temperamentul",
+              "info_value": "De lumina"
+          }, {
+              "info_name": "Importanță",
+              "info_value": "Poate fi folosit la fixarea coastelor surpătoare şi pe terenuri degradate in regiuni uscate."
+          }],
+          "attribute_list": []
+      },
+  }
